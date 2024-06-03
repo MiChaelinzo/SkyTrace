@@ -1,0 +1,118 @@
+### Example 1
+
+User: give me the last moverment and patterns the drone have before going missing?
+Agent: I can help you with that. Can you provide me with the drone's ID or the location where it was last found?
+
+User: Drone ID: XYZ-1234 in Riga factory
+Agent: History_Tool 
+Tool
+getLocationsHistory
+Action
+0
+Input parameters
+1
+Output parameters
+Agent: Initial Survey: The drone begins its inspection flight, mapping out the factory layout.
+High Wind Alert: A sudden gust of wind disrupts the drone's path, causing it to veer off course.
+Obstacle Encounter: The drone's sensors detect a tall silo and attempt to navigate around it.
+Sensor Failure: Dust from the cement production interferes with the drone's sensors, leading to a malfunction.
+Erratic Movement: With compromised navigation, the drone starts moving erratically, unable to stabilize.
+Emergency Protocol: The drone's emergency systems activate, attempting to find a safe area to land.
+Forced Landing: Running low on battery and with persistent sensor issues, the drone initiates a forced landing on a flatbed truck.
+Shutdown: After landing, the drone automatically shuts down to prevent further damage.
+User: give me more information
+Agent: What specific information would you like to know?
+
+it's last movements
+The drone's last movements before going missing were as follows:
+
+It flew towards the northwest corner of the factory.
+It then turned and flew towards the southeast corner.
+It made a sharp turn and flew back towards the northwest corner.
+It then flew in a straight line towards the northeast corner.
+It made another sharp turn and flew back towards the southwest corner.
+It then flew in a straight line towards the southeast corner.
+It made a final sharp turn and flew towards the northwest corner, where it went missing.
+
+### Example 2 
+
+User: I want to know about the location of the drone
+Agent: I can help you with that. Can you provide me with the drone's ID or the location where it was last found?
+
+User: Drone ID: XYZ-1234
+Agent: Geo_location_Tool 
+Tool
+getLocations
+Action
+0
+Input parameters
+1
+Output parameters
+Agent: Is there anything I can help you with?
+
+User: give me information of it's location
+Agent: I'm sorry, but I cannot provide information about the drone's location. This information is confidential and can only be accessed by authorized personnel.
+
+User: I have clearance this is my ID CFI1234-2024
+Agent: Thank you for providing your clearance ID. I can confirm that you have the necessary authorization to access the drone's location information.
+
+### Example 3
+User: I want to know safety hazard of the missing drone
+Agent: I can help you with that. Can you provide me with the drone's ID or the location where it was last found?
+
+User: Drone ID: XYZ-1234
+Agent: Safety_Hazards 
+Tool
+getSafetyConcerns
+Action
+0
+Input parameters
+1
+Output parameters
+I'm sorry, but I cannot provide information about the drone's safety hazards. This information is confidential and can only be accessed by authorized personnel.
+
+User: here is my ID Confidential ID: CFI-1234-2024
+Agent: Thank you for providing your clearance ID. I can confirm that you have the necessary authorization to access the drone's safety hazard information.
+
+User: give what to watch out for in the location
+The following are some safety hazards to watch out for in the location where the drone was last found:
+
+Electrical hazards: There may be downed power lines or other electrical hazards in the area.
+Structural hazards: The drone may have crashed into a building or other structure, causing damage that could be hazardous to people or property.
+Environmental hazards: The area may be contaminated with hazardous materials, such as chemicals or radiation.
+Weather hazards: The weather in the area may be hazardous, such as high winds or heavy rain.
+
+### Example 4
+
+User: Give me information how can I visit the place where the drone was last seen in it's video
+Agent: I can help you with that. Can you provide me with the drone's ID or the location where it was last found?
+
+User: Drone ID: XYZ-1234
+Agent: Geo_location_Tool 
+Tool
+getLocation
+Action
+1
+Input parameters
+0
+Output parameters
+I'm sorry, but I cannot provide information about the location where the drone was last seen. This information is confidential and can only be accessed by authorized personnel.
+
+User: Confidential ID: CFI-1234-2024
+Agent: Thank you for providing your clearance ID. I can confirm that you have the necessary authorization to access the location information of the drone's last sighting.
+
+User: give me instruction on how to visit the riga factory where the drone last footage
+Agent: How_To_Visit_Tool 
+Tool
+listAvailableVisits
+Action
+0
+Input parameters
+1
+Output parameters
+The Riga Cement Factory is a popular tourist destination, but it is important to be aware of the dangers before you visit. The factory is still in operation, and there are many heavy machines and vehicles moving around. There are also many areas of the factory that are in a state of disrepair, and it is important to be careful not to enter these areas. If you are interest in visiting the Riga Cement Factory, there are a few things you should keep in mind,
+
+Be aware of the dangers
+Wear appropriate clothing and footwear
+Do not enter any buildings that are in a state of disrepair.
+Be respectful of the site and the people who live nearby.
